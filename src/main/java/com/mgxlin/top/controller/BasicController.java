@@ -11,7 +11,7 @@ public class BasicController {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello Jenkins";
+        return "Hello Jenkins!";
     }
 
 
